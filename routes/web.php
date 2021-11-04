@@ -19,20 +19,20 @@ Route::get('/', function () {
 
 Route::get('/project', function () {
     return view('home');
+})->name('home');
+
+Route::get('/project/display-data', function () {
+    return view('display-data');
 });
 
-Route::get('/project/Display Data', function () {
-    return view('Display Data');
+Route::get('/project/selection', function () {
+    return view('selection');
 });
 
-Route::get('/project/Selection', function () {
-    return view('Selection');
+Route::get('/project/loop', function () {
+    return view('loop');
 });
 
-Route::get('/project/Loop', function () {
-    return view('Loop');
-});
-
-Route::get('/project/Continue & Break', function () {
-    return view('Continue & Break');
+Route::get('/project/continue-and-break', function () {
+    return view('continue-and-break');
 });
