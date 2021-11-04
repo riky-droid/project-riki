@@ -25,18 +25,35 @@
     <body class="antialiased">
             <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
+              <a class="nav-link active" aria-current="page" href="#">Display Data</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Selection</a>
             </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Loop</a>
               </li>
                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link" href="#">Continue & Break</a>
                   </li>
             </ul>
+
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                   <p>Welcome To Laravel</p>
+                 </blockquote>
+                 <div class="d-flex bd-highlight">
+                    <ul class="list-unstyled">
+                        <li>>Lorem ipsum dolor sit amet, consectetur adipising elit....</li>
+                          <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipising elit....</li>
+                            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipising elit....</li>
+                            <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....</li>           
+                    </ul>
+                </div>
+            </figure> 
+                
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
      
     </body>
